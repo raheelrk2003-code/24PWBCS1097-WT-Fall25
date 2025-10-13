@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Using Formspree</title>
+</head>
+
+<body>
+    <header>
+        <h1>Raheel Khan</h1>
+        <p>Computer Science, UET Peshawar</p>
+    </header>
+
+    <nav>
+        <p>
+            <strong>Navigation:</strong><br>
+            <a href="./index.html">Home</a> |
+            <a href="../Lab 01/index.html">Lab 1</a> |
+            <strong> <a href="../Lab 02/index.html">Lab 2</a> </strong> |
+        </p>
+    </nav>
+    <h1>Contact Form Using Formspree</h1>
+    <p>Feel free to reach out with questions, feedback or collaboration ideas.</p>
+
+    <form action="https://formspree.io/f/xblzzbjz" method="POST">
+        <p>
+            <label for="name">Your Name:<br>
+                <input type="text" name="name" id="name" required>
+            </label>
+        </p>
+
+        <p>
+            <label for="email">Your Email:<br>
+                <input type="email" name="email" id="email" required>
+            </label>
+        </p>
+
+        <p>
+            <label for="message">Your Message:<br>
+                <textarea name="message" id="message" rows="5" required></textarea>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">Send Message</button>
+        </p>
+    </form>
+</body>
+
+</html>
